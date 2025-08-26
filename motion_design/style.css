@@ -1,0 +1,202 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh; /* 100% der Fensterhöhe */
+  overflow: auto; /* scrollen verhindern */
+}
+
+.top_bar {
+  position: relative;   /* alles im Container kann absolut positioniert werden */
+  width: 100%;          /* Container so breit wie das Fenster */
+  height: 100px;        /* Höhe des Containers */
+  border: none;
+  overflow: hidden;     /* nichts außerhalb des Containers anzeigen */
+}
+
+.atom_logo_icon {
+  position: absolute;      /* das Bild darf frei bewegt werden */
+  top: 30px;              /* 100 Pixel von oben */
+  left: 350px;             /* 150 Pixel von links */
+  transform: rotate(0deg); /* Bild um 20° drehen */
+  transition: transform 0.3s ease;
+}
+
+.atom_logo_icon:hover {
+  transform: scale(1.4);     /* 10% größer */
+}
+
+.motiondesign_tb {
+  position: absolute;     /* frei verschiebbar */
+  top: 40px;             /* Abstand von oben */
+  left: 1150px;  
+  color: white;                /* Textfarbe */
+  background-color: black;      /* Hintergrundfarbe */
+  padding: 5px 10px;          /* Innenabstand wie bei einem Button */
+  text-decoration: none;       /* Unterstrich entfernen */
+  border-radius: 5px;          /* abgerundete Ecken */
+  font-size: 18px;             /* Schriftgröße */
+  font-weight: bold;           /* fett */
+  display: inline-block;       /* damit Padding funktioniert */
+  transition: background 0.3s; /* sanfte Farbänderung beim Hover */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  font-family: "Arial";
+}
+
+.motiondesign_tb:hover {
+  background-color: #278EFF;  /* Farbe beim Drüberfahren */
+  transform: scale(1.1);     /* 10% größer */
+}
+
+.edits_tb {
+  position: absolute;     /* frei verschiebbar */
+  top: 40px;             /* Abstand von oben */
+  left: 1320px;  
+  color: white;                /* Textfarbe */
+  background-color: black;      /* Hintergrundfarbe */
+  padding: 5px 10px;          /* Innenabstand wie bei einem Button */
+  text-decoration: none;       /* Unterstrich entfernen */
+  border-radius: 5px;          /* abgerundete Ecken */
+  font-size: 18px;             /* Schriftgröße */
+  font-weight: bold;           /* fett */
+  display: inline-block;       /* damit Padding funktioniert */
+  transition: background 0.3s; /* sanfte Farbänderung beim Hover */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  font-family: "Arial";
+}
+
+.edits_tb:hover {
+  background-color: #278EFF;  /* Farbe beim Drüberfahren */
+  transform: scale(1.1);     /* 10% größer */
+}
+
+.contact_tb {
+  position: absolute;     /* frei verschiebbar */
+  top: 40px;             /* Abstand von oben */
+  left: 1400px;  
+  color: white;                /* Textfarbe */
+  background-color: black;      /* Hintergrundfarbe */
+  padding: 5px 10px;          /* Innenabstand wie bei einem Button */
+  text-decoration: none;       /* Unterstrich entfernen */
+  border-radius: 5px;          /* abgerundete Ecken */
+  font-size: 18px;             /* Schriftgröße */
+  font-weight: bold;           /* fett */
+  display: inline-block;       /* damit Padding funktioniert */
+  transition: background 0.3s; /* sanfte Farbänderung beim Hover */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  font-family: "Arial";
+}
+
+.contact_tb:hover {
+  background-color: #278EFF;  /* Farbe beim Drüberfahren */
+  transform: scale(1.1);     /* 10% größer */
+}
+
+.bottom_bar {
+  position: relative;   /* alles im Container kann absolut positioniert werden */
+  width: 100%;          /* Container so breit wie das Fenster */
+  height: 150px;        /* Höhe des Containers */
+  border: none;
+  overflow: hidden;     /* nichts außerhalb des Containers anzeigen */
+  margin: 0 auto;  /* horizontal zentrieren */
+}
+
+.imprint {
+  position: absolute;     /* frei verschiebbar */
+  top: 75px;             /* Abstand von oben */
+  left: 350px;  
+  color: white;                /* Textfarbe */
+  background-color: black;      /* Hintergrundfarbe */
+  padding: 5px 10px;          /* Innenabstand wie bei einem Button */
+  text-decoration: none;       /* Unterstrich entfernen */
+  border-radius: 25px;          /* abgerundete Ecken */
+  font-size: 18px;             /* Schriftgröße */
+  font-weight: bold;           /* fett */
+  display: inline-block;       /* damit Padding funktioniert */
+  transition: background 0.3s; /* sanfte Farbänderung beim Hover */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  font-family: "Arial";
+}
+
+.imprint:hover {
+  background-color: #278EFF;  /* Farbe beim Drüberfahren */
+  transform: scale(1.1);     /* 10% größer */
+}
+
+.youtube_link {
+  position: absolute;      /* das Bild darf frei bewegt werden */
+  top: 75px;              /* 100 Pixel von oben */
+  left: 1400px;             /* 150 Pixel von links */
+  transform: rotate(0deg); /* Bild um 20° drehen */
+  transition: transform 0.3s ease;
+}
+
+.youtube_link:hover {
+  transform: scale(1.4);     /* 10% größer */
+}
+
+.tiktok_link {
+  position: absolute;      /* das Bild darf frei bewegt werden */
+  top: 84px;              /* 100 Pixel von oben */
+  left: 1340px;             /* 150 Pixel von links */
+  transform: rotate(0deg); /* Bild um 20° drehen */
+  transition: transform 0.3s ease;
+}
+
+.tiktok_link:hover {
+  transform: scale(1.4);     /* 10% größer */
+}
+
+.video_player {
+  width: 1400px;                 /* Breite des Kastens */
+  max-width: 1330px;   /* wächst bis max. 1330px */
+  background-color: #999999;    /* hellgrau */
+  border-radius: 15px;          /* abgerundete Ecken */
+  text-align: center;           /* Text mittig */
+  
+  /* Den Kasten in der Mitte des Bildschirms */
+  position: relative;   /* alles im Container kann absolut positioniert werden */
+  top: 50px;                     /* vertikal in die Mitte */ 
+  left: 280px;
+  height: 630px;        /* Höhe des Containers */
+  overflow: hidden;               /* Scrollen, falls Inhalt zu groß */
+}
+
+.mode_textbox {
+  position: absolute;     /* frei verschiebbar */
+  top: -50px;             /* Abstand von oben */
+  left: 50%;            /* Abstand von links */
+  transform: translateX(-50%); /* um 0° drehen */
+  font-size: 75px;        /* Schriftgröße */
+  color: black;            /* Textfarbe */
+  font-weight: bold;     /* fett schreiben */
+  text-align: center;  /* Text zentrieren */
+  font-family: "Arial";
+}
+
+.video_1 {
+  position: absolute;   /* Position relativ zum Container */
+  width: 640px;            /* Breite des Videos */
+  height: 360px;           /* Höhe des Videos */
+  top: 250px;              /* 100 Pixel von oben */
+  left: 10px;             /* 150 Pixel von links */
+  border: 5px solid black; /* schwarzer Rahmen */
+  border-radius: 10px;     /* abgerundete Ecken */
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5); /* Schatten */
+}
+
+.video_2 {
+  position: absolute;   /* Position relativ zum Container */
+  width: 640px;            /* Breite des Videos */
+  height: 360px;           /* Höhe des Videos */
+  top: 250px;              /* 100 Pixel von oben */
+  right: 10px;             /* 150 Pixel von links */
+  border: 5px solid black; /* schwarzer Rahmen */
+  border-radius: 10px;     /* abgerundete Ecken */
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5); /* Schatten */
+}
+
+
+
+
+
