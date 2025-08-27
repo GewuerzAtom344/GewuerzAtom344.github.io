@@ -410,7 +410,7 @@ html, body {
 .contact_tb {
   position: absolute;     /* frei verschiebbar */
   top: 35px;             /* Abstand von oben */
-  left: 240px;  
+  left: 40px;  
   color: white;                /* Textfarbe */
   background-color: black;      /* Hintergrundfarbe */
   padding: 5px 10px;          /* Innenabstand wie bei einem Button */
@@ -430,6 +430,7 @@ html, body {
 }
 
 }
+
 
 
 
