@@ -342,6 +342,7 @@ html, body {
 .top_bar {
   position: absolute;
   width: 600px;
+  max-width: 1000px;
   height: 90px;
   display: flex;          /* Symbole nebeneinander */
   align-items: center;    /* vertikal zentrieren */
@@ -429,6 +430,7 @@ html, body {
 }
 
 }
+
 
 
 
