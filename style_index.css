@@ -340,7 +340,7 @@ html, body {
 
 @media (max-width: 600px) {
 .top_bar {
-  position: relative;
+  position: absolute;
   width: 600px;
   height: 90px;
   display: flex;          /* Symbole nebeneinander */
@@ -429,6 +429,7 @@ html, body {
 }
 
 }
+
 
 
 
